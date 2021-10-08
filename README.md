@@ -1,4 +1,4 @@
-### Olá!!! Este é meu projeto para compartilhar o conhecimento que tenho sobre Git!
+### Olá!!! Este é meu projeto para estudos e compartilhamento de conhecimentos que tenho sobre Git!
 
 
 #### Alguns termos iniciais:
@@ -20,12 +20,11 @@
 #### Comandos principais:
 
  - git init: iniciar / criar um repositório local (na sua máquina) vazio;
- - git add + nome_arquivo: manda o(s) arquivo(s) para a área de stage (esperando commit)
-  - pode ser mais de um arquivo ao mesmo tempo;
-  - escrever "*" no lugar do nome_arquivo manda todos os arquivos disponíveis;
+ - git add + nome_arquivo: manda o(s) arquivo(s) para a área de stage (esperando commit) - pode ser mais de um arquivo ao mesmo tempo;
+ - git add *: manda todos os arquivos disponíveis para a área de stage;
  - git commit -m + "escreva aqui seu commit": para comitar os arquivos que estão na área de stage;
-  - git status: mostra o estado dos arquivos do repositório;
-  - git branch -M "main: quando você cria um repositório, cria-se junto a linha cronológica principal chamada de Master, mas pode ser usado o nome de Main para se referir a essa linha, então esse comando basicamente renomeia de Master --> Main; 
+ - git status: mostra o estado dos arquivos do repositório;
+ - git branch -M "main: quando você cria um repositório, cria-se junto a linha cronológica principal chamada de Master, mas pode ser usado o nome de Main para se referir a essa linha, então esse comando basicamente renomeia de Master --> Main; 
 
 
 #### Comando repositório remoto (GitHub):
